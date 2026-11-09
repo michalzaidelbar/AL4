@@ -21,11 +21,11 @@ public class PacmanGameApplication implements IGameLogic {
 	
 	public void init() {
 		// Load texture assets
-		Renderer.getInstance().addTexture("cat", "resources/textures/Cat03.jpg");
-		Renderer.getInstance().addTexture("player", "resources/textures/kenney_tiny-dungeon/Tiles/tile_0112.png");
-		Renderer.getInstance().addTexture("wall", "resources/textures/kenney_tiny-dungeon/Tiles/tile_0040.png");
-		Renderer.getInstance().addTexture("bonus-dot", "resources/textures/kenney_tiny-dungeon/Tiles/tile_0101.png");
-		Renderer.getInstance().addTexture("bonus-cherry", "resources/textures/kenney_tiny-dungeon/Tiles/tile_0115.png"); //IMAGE FOR CHERRY BONUS
+		Renderer.getInstance().addTexture("cat", "AL4/resources/textures/Cat03.jpg");
+		Renderer.getInstance().addTexture("player", "AL4/resources/textures/kenney_tiny-dungeon/Tiles/tile_0112.png");
+		Renderer.getInstance().addTexture("wall", "AL4/resources/textures/kenney_tiny-dungeon/Tiles/tile_0040.png");
+		Renderer.getInstance().addTexture("bonus-dot", "AL4/resources/textures/kenney_tiny-dungeon/Tiles/tile_0101.png");
+		Renderer.getInstance().addTexture("bonus-cherry", "AL4/resources/textures/kenney_tiny-dungeon/Tiles/tile_0115.png"); //IMAGE FOR CHERRY BONUS
 		
 		// Read scene
 		objects = PacmanSceneReader.readScene("resources/scenes/second.txt");
